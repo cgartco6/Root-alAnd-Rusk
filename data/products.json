@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Gluten-Free Almond Coconut",
+    "price": "R25",
+    "tags": ["gluten-free", "gourmet"],
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Traditional Buttermilk",
+    "price": "R15",
+    "tags": ["classic", "sweet"],
+    "stock": 100
+  }
+]
