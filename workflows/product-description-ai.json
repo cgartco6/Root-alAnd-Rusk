@@ -1,0 +1,11 @@
+{
+  "trigger": "new_product_created",
+  "action": {
+    "type": "openai.generate",
+    "input": {
+      "prompt": "Generate a product description for a handmade buttermilk rusk",
+      "temperature": 0.7
+    },
+    "output": "product.description"
+  }
+}
