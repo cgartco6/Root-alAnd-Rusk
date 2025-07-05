@@ -1,0 +1,9 @@
+from PIL import Image, ImageDraw
+
+# Create a simple logo
+logo = Image.new("RGB", (600, 150), color=(250, 245, 230))
+draw = ImageDraw.Draw(logo)
+draw.text((20, 50), "Root & Rusk", fill="black")
+
+# Save logo
+logo.save("logo.png")
