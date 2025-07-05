@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffdf7;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f7f1e3;
+}
+.logo {
+  height: 60px;
+}
+nav a, nav select {
+  margin: 0 10px;
+}
