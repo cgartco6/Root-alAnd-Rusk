@@ -1,0 +1,9 @@
+from PIL import Image, ImageDraw
+
+# Create 32x32 favicon
+favicon = Image.new("RGB", (32, 32), color=(123, 85, 45))
+draw = ImageDraw.Draw(favicon)
+draw.rectangle([8, 8, 24, 24], fill="white")
+
+# Save favicon
+favicon.save("favicon.ico")
